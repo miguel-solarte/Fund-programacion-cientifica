@@ -5,5 +5,6 @@ from KPI.views import kpi, buscar
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('kpi/', kpi),
-    path('buscar/', buscar),
+    path('', buscar),
+
 ]

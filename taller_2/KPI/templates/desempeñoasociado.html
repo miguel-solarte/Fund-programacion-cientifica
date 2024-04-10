@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %}Desempeño asociado{%endblock%}
+
+{%block content%}
+   
+<form action="/kpi/" method="GET">{% csrf_token %} {%comment%} La informacion del formulario se envia utilizando la URL del navegador como medio de transporte{%endcomment%}
+    
+    <input type="text" name = "name_asoc">
+
+    <input type="submit", value="Buscar">
+
+</form>
+
+{%endblock%}

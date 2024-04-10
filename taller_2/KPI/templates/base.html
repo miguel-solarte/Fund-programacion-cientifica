@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        {%block title%} {%endblock%} {% comment %}Hace que el titulo sea cambiante{% endcomment %}
+    </title>
+
+</head>
+<body>
+
+    <h1 style = " background-color: darkblue; color: white; text-align: center;">key Performance Indicator</h1>
+
+    {%block content%} 
+        {% comment %}Se indica que es contenido cambiante{% endcomment %}
+    {%endblock%} 
+
+    <p>
+        <div style="background-color: darkblue; color: white; text-align: left;">
+            <p style="margin: 5px 0;">Nombre: Miguel Angel Solarte Sanchez</p>
+            <p style="margin: 5px 0;">Universidad: Instituto Tecnologico Metropolitano</p>
+            <p style="margin: 5px 0;">Correo: miguelsolarte244621@correo.itm.edu.co</p>
+        </div>        
+    </p>
+    
+</body>
+</html>

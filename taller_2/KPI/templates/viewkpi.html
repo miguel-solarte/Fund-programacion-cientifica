@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+
+{% block title %} vistas kpi {%endblock%}
+
+{%block content%}
+ 
+<li>
+    <label for="kpi1">Porcentaje productos vendidos</label><br>
+    <p style="padding-left: 20px;">KPI 1: <input type="text" id="kpi1" name="kpi1" value="{{kpi1}}"></p>
+</li>
+
+<li>
+    <label for="kpi2">Porcentaje horas trabajadas</label><br>
+    <p style="padding-left: 20px;">KPI 2: <input type="text" id="kpi2" name="kpi2" value="{{kpi2}}"></p>
+</li>
+
+<li>
+    <label for="kpi3">Porcentaje dinero adquirido por venta de productos</label><br>
+    <p style="padding-left: 20px;">KPI 3: <input type="text" id="kpi3" name="kpi3" value="{{kpi3}}"></p>
+</li>
+
+<li>
+    <label for="kpi4">Productos vendidos sobre horas trabajadas</label><br>
+    <p style="padding-left: 20px;">KPI 4: <input type="text" id="kpi4" name="kpi4" value="{{kpi4}}"></p>
+</li>
+
+<li>
+    <label for="kpi5">Cantidad de dinero adquirido sobre horas trabajadas</label><br>
+    <p style="padding-left: 20px;">KPI 5: <input type="text" id="kpi5" name="kpi5" value="{{kpi5}}"></p>
+</li>
+
+<li>
+    <label for="kpi6">Cantidad de dinero adquirido mas productos vendidos dividido el tiempo de trabajado</label><br>
+    <p style="padding-left: 20px;">KPI 6: <input type="text" id="kpi6" name="kpi6" value="{{kpi6}}"></p>
+</li>
+
+<li>
+    <label for="kpi7">Cantidad de dinero adquirido al cuadrado mas productos vendidos dividido el tiempo de trabajado</label><br>
+    <p style="padding-left: 20px;">KPI 7: <input type="text" id="kpi7" name="kpi1" value="{{kpi7}}"></p>
+</li>
+
+<li>
+    <label for="kpi8">Indice de dinero adquirido en horas pactadas</label><br>
+    <p style="padding-left: 20px;">KPI 8: <input type="text" id="kpi8" name="kpi8" value="{{kpi8}}"></p>
+</li>
+
+<li>
+    <label for="kpi9">Indice de productos vendidos en horas pactadas</label><br>
+    <p style="padding-left: 20px;">KPI 9: <input type="text" id="kpi9" name="kpi9" value="{{kpi9}}"></p>
+</li>
+
+<li>
+    <label for="kpi10">Indice de dinero adquirido en horas pactadas con penalización en el dinero total</label><br>
+    <p style="padding-left: 20px;">KPI 10: <input type="text" id="kpi10" name="kpi10" value="{{kpi10}}"></p>
+</li>
+
+{%endblock%}
